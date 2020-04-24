@@ -1,0 +1,7 @@
+session:
+  store-type: redis
+  redis:
+    flush-mode: on_save
+    save-mode: always
+    namespace: mysession
+  timeout: 60
